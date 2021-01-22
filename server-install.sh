@@ -30,7 +30,7 @@ sed -i $MACOS "s|- '9100:9100'||g" docker-compose.yml
 echo "Your administrator username is admin"
 echo "Your administrator password is $adminpass"
 docker-compose up -d
-sleep 1
+sleep 20
 
 
 admin="admin"
